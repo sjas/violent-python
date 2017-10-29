@@ -1,0 +1,24 @@
+libraries for the violent python book installed so far
+======================================================
+
+pip3 install PyPDF2
+pip3 install python-nmap
+pip3 install pygeoip
+pip3 install beautifulsoup4
+
+pip3 install mechanize  ## BROKEN
+## mechanize should be rather easily be fixable
+## maybe try that if i get around having more time
+## alternative to test:
+pip3 install mechanicalsoup
+
+
+1 sjas@zen 20:26:14 ~/wrk/vpython $ pip3 install mechanize
+Collecting mechanize
+  Using cached mechanize-0.3.6.tar.gz
+    Complete output from command python setup.py egg_info:
+    mechanize only works on python 2.x
+
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-06__vdma/mechanize/
+1 sjas@zen 20:26:23 ~/wrk/vpython $
